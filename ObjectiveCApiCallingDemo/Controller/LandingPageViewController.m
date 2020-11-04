@@ -21,9 +21,9 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    NSString *appID = @"2070";
-    NSString *token = @"1c915e3b5d42d05136185030892fbb846c278927";
-    NSString *userID = @"superman";
+    NSString *appID = @"";//Use your fyber app id
+    NSString *token = @"";// Use your fyber token
+    NSString *userID = @"";//Use your fyber userID
     appIDTextField.text = appID;
     tokenTextfield.text = token;
     userIDTextfield.text = userID;
