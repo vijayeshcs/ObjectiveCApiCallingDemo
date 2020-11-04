@@ -26,9 +26,9 @@
     //NSString *apple_idfa = [[[[ASIdentifierManager sharedManager] advertisingIdentifier]UUIDString] valueForKey:@"apple_idfa"];
     NSString *apple_idfa = @"00000000-0000-0000-0000-000000000000";
     NSString *apple_idfa_tracking_enabled = @"true";
-    NSString *ip = @"109.235.143.113";
+    NSString *ip = @"0.0.0.0";// Replace your fyber ip
     NSString *locale = @"DE";
-    NSString *offerTypes = @"112";
+    NSString *offerTypes = @"";// Replace your fyber offertypes
     
     
     NSString * urlParams = [NSString stringWithFormat:@"appid=%@"
